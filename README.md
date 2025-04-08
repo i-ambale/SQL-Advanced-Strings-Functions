@@ -2,7 +2,7 @@
 © ExploreAI Academy
 
 📘 Overview
-This project explores advanced SQL string functions and their application in solving real-world data manipulation problems. It uses the Northwind.db SQLite database to demonstrate powerful techniques in handling, transforming, and analyzing string data.
+**This project explores advanced SQL string functions and their application in solving real-world data manipulation problems. It uses the Northwind.db SQLite database to demonstrate powerful techniques in handling, transforming, and analyzing string data.**
 ---
 ## 🎯 Learning Objectives
 By the end of this exercise, you should be able to:
