@@ -1,7 +1,7 @@
 # SQL Advanced String Functions
 © ExploreAI Academy
 
-##📘 Overview
+📘 Overview
 This project explores advanced SQL string functions and their application in solving real-world data manipulation problems. It uses the Northwind.db SQLite database to demonstrate powerful techniques in handling, transforming, and analyzing string data.
 ---
 ## 🎯 Learning Objectives
@@ -67,20 +67,17 @@ SQLite String Functions
 
 ExploreAI Academy SQL Curriculum
 ---
-🛠️ Key SQL Functions Explored
-Function	Purpose	Example (SQLite)
-CAST()	Convert one data type to another	SELECT CAST(Salary AS TEXT) FROM Employees;
-COALESCE()	Replace NULL values with a default	SELECT COALESCE(ContactTitle, 'N/A') FROM Customers;
-SUBSTR()	Extract a part of a string	SELECT SUBSTR(OrderDate, 1, 7) AS YearMonth FROM Orders;
-REPLACE()	Replace a part of a string with another	SELECT REPLACE(Phone, '-', ' ') FROM Customers;
-TRIM()	Remove whitespace or specified characters	SELECT TRIM(' ExploreAI ') AS CleanText;
-UPPER() / LOWER()	Convert string to upper or lower case	SELECT UPPER(FirstName) FROM Employees;
-`		` (concat operator)
-LENGTH()	Get the length of a string	SELECT LENGTH(CompanyName) FROM Customers;
-INSTR()	Find the position of a substring	SELECT INSTR(ContactName, ' ') AS SpacePosition FROM Customers;
-IFNULL()	Return alternate value if the first is NULL (SQLite alternative to COALESCE)	SELECT IFNULL(Region, 'Not Provided') FROM Customers;
+### 🛠️ Key SQL Functions Explored
 
-
-
-
-
+| **Function**           | **Purpose**                                                        | **Example (SQLite)**                                                                 |
+|------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| `CAST()`               | Convert one data type to another                                    | `SELECT CAST(Salary AS TEXT) FROM Employees;`                                       |
+| `COALESCE()`           | Replace `NULL` values with a default                                | `SELECT COALESCE(ContactTitle, 'N/A') FROM Customers;`                              |
+| `SUBSTR()`             | Extract a part of a string                                          | `SELECT SUBSTR(OrderDate, 1, 7) AS YearMonth FROM Orders;`                          |
+| `REPLACE()`            | Replace part of a string with another                               | `SELECT REPLACE(Phone, '-', ' ') FROM Customers;`                                   |
+| `TRIM()`               | Remove whitespace or specified characters                           | `SELECT TRIM('   ExploreAI   ') AS CleanText;`                                      |
+| `UPPER()` / `LOWER()`  | Convert string to upper or lower case                               | `SELECT UPPER(FirstName) FROM Employees;`                                           |
+| `||` (concat operator) | Concatenate strings in SQLite                                       | `SELECT FirstName || ' ' || LastName AS FullName FROM Employees;`                  |
+| `LENGTH()`             | Get the length of a string                                          | `SELECT LENGTH(CompanyName) FROM Customers;`                                        |
+| `INSTR()`              | Find the position of a substring                                    | `SELECT INSTR(ContactName, ' ') AS SpacePosition FROM Customers;`                  |
+| `IFNULL()`             | Return alternate value if the first is NULL (SQLite's COALESCE)     | `SELECT IFNULL(Region, 'Not Provided') FROM Customers;`                            |
