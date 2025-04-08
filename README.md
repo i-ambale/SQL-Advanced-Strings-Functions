@@ -27,7 +27,6 @@ By the end of this exercise, you should be able to:
     This is a sample retail database representing a company's data including Customers, Orders, Employees, Products, and more.
 ---
 ## 🛠️ Key SQL Functions Explored
-
 | Function        | Purpose                                         | Example (SQLite)                                                   |
 |----------------|--------------------------------------------------|--------------------------------------------------------------------|
 | `CAST()`        | Convert one data type to another                | `SELECT CAST(Salary AS TEXT) FROM Employees;`                      |
@@ -40,7 +39,6 @@ By the end of this exercise, you should be able to:
 | `LENGTH()`      | Get the length of a string                      | `SELECT LENGTH(CompanyName) FROM Customers;`                       |
 | `INSTR()`       | Find the position of a substring                | `SELECT INSTR(ContactName, ' ') AS SpacePosition FROM Customers;`  |
 | `IFNULL()`      | Alternate to COALESCE (SQLite-specific)         | `SELECT IFNULL(Region, 'Not Provided') FROM Customers;`            |
-
 ---
 ## 📊 Example Use Cases
 - Standardizing country names by removing parenthetical text
