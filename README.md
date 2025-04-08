@@ -26,7 +26,7 @@ By the end of this exercise, you should be able to:
 - **Northwind.db**
     This is a sample retail database representing a company's data including Customers, Orders, Employees, Products, and more.
 ---
-### 🛠️ Key SQL Functions Explored
+## 🛠️ Key SQL Functions Explored
 
 | **Function**           | **Purpose**                                                        | **Example (SQLite)**                                                                 |
 |------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------------|
