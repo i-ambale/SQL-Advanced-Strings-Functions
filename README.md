@@ -36,7 +36,7 @@ By the end of this exercise, you should be able to:
 | `REPLACE()`            | Replace part of a string with another                               | `SELECT REPLACE(Phone, '-', ' ') FROM Customers;`                                   |
 | `TRIM()`               | Remove whitespace or specified characters                           | `SELECT TRIM('   ExploreAI   ') AS CleanText;`                                      |
 | `UPPER()` / `LOWER()`  | Convert string to upper or lower case                               | `SELECT UPPER(FirstName) FROM Employees;`                                           |
-| &#124;&#124;           | Concatenate strings in SQLite                                       | `SELECT FirstName &#124;&#124; ' ' &#124;&#124; LastName AS FullName FROM Employees;` |
+| &#124;&#124;           | Concatenate strings in SQLite                                       | SELECT FirstName &#124;&#124; ' ' &#124;&#124; LastName AS FullName FROM Employees; |
 | `LENGTH()`             | Get the length of a string                                          | `SELECT LENGTH(CompanyName) FROM Customers;`                                        |
 | `INSTR()`              | Find the position of a substring                                    | `SELECT INSTR(ContactName, ' ') AS SpacePosition FROM Customers;`                   |
 | `IFNULL()`             | Return alternate value if the first is NULL (SQLite's COALESCE)     | `SELECT IFNULL(Region, 'Not Provided') FROM Customers;`                            |
